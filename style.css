@@ -169,6 +169,12 @@ hr
 	justify-content: center;
 }
 
+.hunter-col
+{
+	display: flex;
+	justify-content: center;
+}
+
 .media
 {
 	margin:10px 5px;

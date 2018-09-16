@@ -6,6 +6,10 @@ body
 
 }
 
+hr
+{
+	margin:40px 0px;
+}
 
 
 
@@ -34,7 +38,7 @@ body
 }
 
 
-/* Fellows */
+/* Fellows + carousel */
 
 
 .container-fellows
@@ -129,8 +133,6 @@ body
 
 }
 
-
-
 .orange
 {
 	color:orange;
@@ -147,9 +149,18 @@ body
 }
 
 
+/* rewards section */
 
+.reward-row
+{
 
+}
 
+.reward-img
+{
+	display:flex;
+	justify-content: center;
+}
 
 
 

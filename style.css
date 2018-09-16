@@ -162,6 +162,17 @@ hr
 	justify-content: center;
 }
 
+/* Best hunters section */
+
+.row-hunters
+{
+	justify-content: center;
+}
+
+.media
+{
+	margin:10px 5px;
+}
 
 
 

@@ -73,6 +73,80 @@ body
 	justify-content: space-around;
 }
 
+.card
+{
+	position:relative;
+}
+
+.btn
+{
+	padding:0px;
+	margin:0px;
+	border:none;
+}
+
+
+
+
+.card-img-top
+{
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	
+}
+
+.card-img-top:hover
+{
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+}
+
+.reward
+{
+	position:absolute;
+	top:3.5vh;
+	left:3vw;
+	right:3vw;
+	border:none;
+	border-radius:8px;
+	font-size:30px;
+	padding:3px 5px;
+	background-color: white;
+	opacity:0.8;
+	text-align: center;
+}
+
+.dead
+{
+	position:absolute;
+	top:8vh;
+	left:3vw;
+	right:3vw;
+	text-align: center;
+	color:red;
+	font-weight: bold;
+	font-size:55px;
+
+}
+
+
+
+.orange
+{
+	color:orange;
+}
+
+.card:hover .reward
+{
+	visibility:hidden;
+}
+
+.card:hover .dead
+{
+	visibility: hidden;
+}
+
+
 
 
 
